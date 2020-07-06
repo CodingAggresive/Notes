@@ -3,18 +3,35 @@ Entity Relationship Diagarm (ERD)
 Entity
 Represents a person,place or thin that you want to track in a database.
 This will become a table in the database.
+Each occurence of the entity is an "entity instance" => "row in the table
 
-Each occurence of the entity is an "entity instance" => 
-
-e.g.
- A table in DB => Is more of a Container which holds many different students.
- Schema => Entity
+e.g. 
+ Student Entity : A table in DB => Is more of a Container which holds many different students. All of the things like a student will be gorup together udner Student.
  
 
 Attribute
+Describe various characteristics about an individual entity
 
-Primary Key
+
+Primary Key/Identifier
+An attribute or group of attributes that **uniquely** identifies an instance of the entity.
+
+
 
 Relationship
+Descirbes how on e or more entities interact with each other.
+A **verb** is often used to descvibe the relationship.
+
+
+
+
 
 Cardinality
+The count of instances that are allowed or are necessary between entity relationships.
+Minimum/Maximum
+
+
+Reference
+Entity Relationship Diagram(ERD) Training Video[https://www.youtube.com/watch?v=-fQ-bRllhXc&t=188s]
+Creating Entity Relationship Diagrams using Draw.io[https://www.youtube.com/watch?v=lAtCySGDD48]
+ 
