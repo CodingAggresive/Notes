@@ -1,0 +1,20 @@
+Entity Relationship Diagarm (ERD)
+
+Entity
+Represents a person,place or thin that you want to track in a database.
+This will become a table in the database.
+
+Each occurence of the entity is an "entity instance" => 
+
+e.g.
+ A table in DB => Is more of a Container which holds many different students.
+ Schema => Entity
+ 
+
+Attribute
+
+Primary Key
+
+Relationship
+
+Cardinality
